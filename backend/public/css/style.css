@@ -1,0 +1,136 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+}
+
+hr{
+    margin: 0px;
+}
+
+.div_margin{
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+}
+
+.main_heading{
+    color: #6F6566;
+    text-align: center;
+}
+
+.hr{
+    color: #6F6566;
+}
+
+.description_box{
+    border: 0;
+    width: 90%;
+    height: 30px;
+    margin: 0;
+}
+
+.vl{
+    border-left: 1px solid #6F6566;
+    display: inline-block;
+    height: 79px;
+}
+
+.div1{
+    width: 100%;
+}
+
+.div1 p{
+    margin: 0px;
+}
+
+.sub_headings{
+    margin: 5px 0;
+    color: #9394A0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.arrow{
+    border: solid #9394A0;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    left: 80%;
+    margin-top: 2px;
+}
+
+.pos{
+    position: relative;
+}
+
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#inner-text{
+    color: #9394A0;
+}
+
+#schedule_date{
+    color: #9394A0;
+}
+
+.category_custom_dropdown{
+    width: 95%;
+    font-size: 15px;
+    color: #9394A0;
+    border: none;
+    margin-left: -2px;
+    overflow: hidden;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+}
+
+.div2{
+    width: 44%;
+    height: 52px;
+}
+
+.div3{
+    border-top: 1px solid #9394A0;
+    padding: 30px 90px;
+}
+
+.div3 button{
+    /* margin-left: 20px; */
+    padding: 2% 1%;
+    width: 35%;
+    height: 60px;
+    /* max-height: 10%; */
+    vertical-align: middle;  
+}
+
+.btn1{
+    background-color: #444444;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    margin-left: 12%;
+    /* margin: 0px 10px 0px 90px; */
+}
+
+.btn2{
+    background-color: red;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2%;
+    /* margin: 0px 0px 0px 10px; */
+}
+
+#taskList li{
+    list-style-type: none;
+}

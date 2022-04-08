@@ -41,7 +41,7 @@
             </div>
             <div class="div3">
                 <div>
-                    <button type="submit" class="btn1" id="btn1"> <i class="fa fa-solid fa-plus"></i> <span> &nbsp ADD TASK</span> </button>
+                    <button class="btn1" id="btn1"> <i class="fa fa-solid fa-plus"></i> <span> &nbsp ADD TASK</span> </button>
                     <button formaction="/removetask"  type="submit" class="btn2" id="btn2"><i class="fa fa-solid fa-trash"></i> <span> &nbsp DELETE TASK</span> </button>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                             
                         </div> -->
                         <div class="details">
-                            <input type ="checkbox" id="${task.id}" class="custom-checkbox checkbox">
+                            <input type ="checkbox" id="${task.id}" name="checkbox" class="custom-checkbox checkbox">
                             <label for="${task.id}"></label>
                             <p><%= i.task %></p>
                             <p><%= i.date %></p>
